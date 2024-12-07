@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MALU f.e.t.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Bilbo&family=Elsie:wght@400;900&family=Exo+2:wght@500&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Rye&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belleza&family=Bilbo&family=Elsie:wght@400;900&family=Exo+2:wght@500&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Rye&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d972c1f784.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="navbar">
         <!-- logo -->
         <!-- <img src="" alt="" class="logo"> -->
-         <h1>MALU f.e.t</h1>
+        <h1>MALU f.e.t</h1>
 
         <!-- search bar -->
         <div class="search-bar">
@@ -25,22 +29,22 @@
 
         <div class="far-left">
             <!-- create button -->
-        <div class="create-button">
-            <i class="fa-solid fa-plus"></i>
-             <span>Create</span>
+            <div class="create-button navbtn">
+                <i class="fa-solid fa-plus"></i>
+                <span>Create</span>
+            </div>
+
+            <!-- notif -->
+            <div class="icon navbtn">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+            <!-- profile -->
+            <div class="icon navbtn">
+                <i class="fa-solid fa-user"></i>
+            </div>
         </div>
 
-        <!-- notif -->
-        <div class="icon">
-            <i class="fa-regular fa-bell"></i>
-        </div>
-    
-        <!-- profile -->
-        <div class="icon">
-       <i class="fa-solid fa-user"></i>
-       </div>
-        </div>
-        
 
     </div>
 
@@ -61,17 +65,61 @@
 
             <hr>
         </div>
-    
-        <div class="feed">
-            <div class="card">
-                <div class="username"></div>
-                <div class="date"></div>
-                <div class="card-content"></div>
 
+        <div class="feeds">
+            <div class="feed">
+                <div class="card">
+                    <div class="user">
+                        <img src="./images/user/maris.jpg" alt="">
+                        <a href="">u/MArisRacal</a>
+                      <span class="date">Dec 5</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">Hello Title</div>
+                        <div class="content-text">
+                            Hii, as the title says, any affordable recos? Something na magagamit daily sana. Considering din yung mainit na weather sa PH haha. Thank you!                        </div>
+                    </div>
+                    <div class="card-buttons">
+                        <div class="button vote">
+                            <div class="upvote"><i class="fa-regular fa-thumbs-up"></i></div>
+                            <span>105</span>
+                            <div class="downvote"><i class="fa-regular fa-thumbs-down"></i></div>
+                        </div>
+
+                        <div class="button">
+                            <!-- icon -->
+                            <span></span>
+                        </div>
+
+                        <div class="button">
+                            <!-- icon -->
+                        </div>
+
+                        <div class="button">
+                            <!-- icon -->
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
+            <div class="feed">
+                <div class="card">
+                    <div class="user">
+                        <img src="./images/user/maris.jpg" alt="">
+                        <a href="">u/AnthonyJennings</a>
+                      <span class="date">Dec 5</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">Hello Guys</div>
+                        
+                </div>
+            </div>
+
+
         </div>
     </div>
-   
+
 </body>
+
 </html>

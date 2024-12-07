@@ -22,6 +22,9 @@ body,html{
     position: fixed;
     z-index: 99;
 }
+.navbtn{
+    cursor: pointer;
+}
 .search-bar{
     width: 30%;
     background-color: #414141;
@@ -113,6 +116,7 @@ body,html{
     display: flex;
     gap:0.5rem;
     align-items: center;
+    cursor: pointer;
 }
 
 .sidebar hr{
@@ -130,17 +134,103 @@ body,html{
     height: 100%;
     width: 100%;
 }
-.feed{
+.feeds{
     position: relative;
     left:450px;
     top:130px;
     box-shadow: inset 1px #414141;
 }
 
+.feed:first-child{
+    border-top: 1px solid #414141;
+    padding-top: 10px;
+}
+.feed{
+    border-top: 1px solid #414141;
+    padding-top: 10px;
+    border-bottom: 1px solid #414141;
+    padding-bottom: 10px;
+}
+.feed:last-child{
+    border-top: 1px solid #414141;
+    padding-top: 10px;
+    border-bottom: 1px solid #414141;
+    padding-bottom: 10px;
+    margin-bottom: 0.5rem;
+}
+
 .card{
     width:732px;
-    height: 300px;
-    background-color: #414141;
+    height: auto;
     border-radius: 8px;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #4141416b;
+
+}
+
+.card .user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.user a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+.user a:hover{
+    color:rgb(134, 134, 255);
+}
+.user img{
+    width:1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.date{
+    font-size: .7rem;
+}
+.date::before{
+    content: '•';
+    margin-right: .7rem;
+}
+
+.content-title{
+    margin-top: 10px;
+    font-size:18px;
+    font-weight: 500;
+}
+
+.content-text{
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: 100;
+}
+
+.card-buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+}
+
+.button{
+    padding: 4px 16px;
+    border-radius: 50px;
+}
+
+.button:hover{
+    background-color: #414141;
+}
+
+.vote{
+    display:flex;
+    justify-content: space-ariound;
+    gap: 10px;
 }
