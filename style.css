@@ -96,10 +96,8 @@ body,html{
     padding:1rem 0.2rem;
     display: flex;
     flex-direction: column;
-    justify-content: ;
     align-items: center;
     border-right: 1px solid #f1f1f1;
-    /* border-bottom: 1px solid #f1f1f1; */
     position: fixed;
     gap:0.5rem;
     overflow-y:auto;
@@ -108,7 +106,7 @@ body,html{
 
 .sidebar .tabs{
     font-size:16px;
-    padding: 16px 4px ;
+    padding: 4px 16px;
     width: 194px;
     border-radius: 8px;
     transition:0.3s;
