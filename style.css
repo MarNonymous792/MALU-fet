@@ -22,6 +22,16 @@ body,html{
     position: fixed;
     z-index: 99;
 }
+
+#title{
+    display: flex;
+    align-items: center;
+}
+
+#title img{
+    padding-right: 14px;
+    width: 32px;
+}
 .navbtn{
     cursor: pointer;
 }
@@ -93,7 +103,16 @@ body,html{
     background-color: #414141;
 }
 
+@media (max-width:700px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+
 .sidebar{
+    z-index: 88;
+    background-color: #111;
     width: 264px;
     height:90vh;
     padding:1rem 0.2rem;
@@ -109,6 +128,7 @@ body,html{
 
 .sidebar .tabs{
     font-size:16px;
+    letter-spacing: 3px;
     padding: 4px 16px;
     width: 194px;
     border-radius: 8px;
@@ -121,6 +141,23 @@ body,html{
 
 .sidebar hr{
     width: 90%;
+}
+
+span.title{
+    font-size:16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding: 4px 16px;
+    width: 194px;
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    align-items: center;
+    
+}
+
+span.title i{
+     margin-left: 100px;
 }
 
 .tabs:hover{
@@ -217,20 +254,30 @@ body,html{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    align-items: start;
+    align-items: center;
 }
 
 .button{
     padding: 4px 16px;
     border-radius: 50px;
+    display:flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .button:hover{
     background-color: #414141;
 }
 
-.vote{
-    display:flex;
-    justify-content: space-ariound;
-    gap: 10px;
+.button i:hover{
+    opacity: 0.5;
+}
+
+.media{
+    text-align: center;
+}
+.media video, .media img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
