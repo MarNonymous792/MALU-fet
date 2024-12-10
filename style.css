@@ -10,6 +10,19 @@ html {
   font-style: normal;
 }
 
+@media screen and (max-width:700px){
+    body{overflow-x: hidden;}
+
+    .content .sidebar{
+        display: none;
+    }
+
+    .content .feeds, content .article{
+        position:relative;
+        left: 0px;
+    }
+}
+
 .navbar {
   border-bottom: 1px solid #f1f1f1;
   background-color: #111;
@@ -102,12 +115,6 @@ html {
   background-color: #414141;
 }
 
-@media (max-width: 700px) {
-  .sidebar {
-    display: none;
-  }
-}
-
 .sidebar {
   z-index: 88;
   background-color: #111;
@@ -139,6 +146,49 @@ html {
 
 .sidebar hr {
   width: 90%;
+}
+
+.notif-title{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.notif{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+}
+
+.notif:hover{
+    background-color: rgba(65, 65, 65, 0.5);
+}
+
+.notif img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.notif-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.notif-content .user a{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.notif-content .notif-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.notif-second-title{
+    font-weight: 600;
+    color: #686868;
 }
 
 span.title {
@@ -452,4 +502,60 @@ font-size: 22px;
 
 .create-buttons .button:hover{
     background-color: #616161;
+}
+
+.profile{
+    width: 900px;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.profile img{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+
+.profile .user-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name .nickname{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.user-name .user-tag{
+    font-size: 16px;
+    font-weight: 300;
+    color: #686868;
+}
+
+.profile-buttons{
+    margin-top: 50px;
+    display: flex;
+    border-bottom: 1px solid #414141;
+    padding-bottom: 5px;
+    justify-content: ;
+}
+
+.profile-buttons .button{
+    cursor: pointer;
+}
+
+.profile-buttons .button:hover{
+    text-decoration: underline;
+}
+
+.profile-acts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
 }
