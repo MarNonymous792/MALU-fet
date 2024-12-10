@@ -279,6 +279,20 @@ span.title i {
   width: 100%;
 }
 
+.media video{
+    height: 500px;
+}
+
+.gif{
+    display: flex;
+    justify-content: start;
+}
+
+.gif video{
+    width: 300px;
+    height: 200px;
+}
+
 .article-content {
   display: flex;
   flex-direction: column;
@@ -347,12 +361,19 @@ span.title i {
     opacity: 0.8;
 }
 
+.reply, .comment{
+    border-left:1px solid #f1f1f1
+}
+
 .comment{
-    margin-top: 50px;
+    margin-top: 25px;
     max-width: 900px;
     padding: 5px;
 }
 
+.comment:last-child{
+    margin-bottom: 20px;
+}
 .comment-text{
     margin-top: 8px;
     font-size:14px;
@@ -361,7 +382,8 @@ span.title i {
 
 .reply{
     margin-top: 20px;
-    padding-left: 100px;
+    margin-left: 100px;
+    padding-left: 20px;
 }
 
 .article h1{
