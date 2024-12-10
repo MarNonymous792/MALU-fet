@@ -167,6 +167,15 @@ span.title i {
   height: 100%;
   width: 100%;
 }
+
+h1.category-title{
+    font-size: 20px;
+}
+
+h1.category-title::before{
+    content: 'Topic : ';
+}
+
 .feeds,
 .article {
   position: relative;
@@ -362,7 +371,7 @@ span.title i {
 }
 
 .reply, .comment{
-    border-left:1px solid #f1f1f1
+    border-left:1px solid #f1f1f180;
 }
 
 .comment{
