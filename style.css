@@ -356,11 +356,12 @@ h1.category-title::before {
 }
 .media img {
   border-radius: 10px;
+  margin-top: 10px;
   height: 400px;
 }
 .media video{
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 
