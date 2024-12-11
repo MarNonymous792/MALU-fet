@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALU f.e.t.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belleza&family=Bilbo&family=Elsie:wght@400;900&family=Exo+2:wght@500&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Rye&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d972c1f784.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <!-- logo -->
+
+        <h1 id="title" onclick="location.href='./index.html'"><img src="./favicon.ico" alt="">MALU f.e.t</h1>
+
+        <!-- search bar -->
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search">
+        </div>
+
+        <div class="far-left">
+            <!-- create button -->
+            <div class="create-button navbtn" onclick="location.href='./create.html'">
+                <i class="fa-solid fa-plus"></i>
+                <span>Create</span>
+            </div>
+
+            <!-- notif -->
+            <div class="icon navbtn" onclick="location.href='./notifs.html'">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+            <!-- profile -->
+            <div class="icon navbtn" onclick="location.href='./profile.html'">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="sidebar">
+            <div class="tabs" onclick="location.href='./index.html'">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </div>
+            <!-- <div class="tabs">
+                <i class="fa-solid fa-fire"></i>
+                <span>Popular</span>
+            </div>
+            <div class="tabs">
+                <i class="fa-solid fa-globe"></i>
+                <span>Explore</span>
+            </div> -->
+
+            <hr>
+
+            <span class="title">Topics <i class="fa-solid fa-caret-down"></i></span>
+
+            <div class="tabs" onclick="location.href='./cat-gaming.html'">
+                <span>Gaming</span>
+            </div>
+
+            <div class="tabs" onclick="location.href='./cat-sports.html'">
+                <span>Sports</span>
+            </div>
+
+            <div class="tabs" onclick="location.href='./cat-lifestyle.html'">
+                <span>Lifestyle</span>
+            </div>
+
+            <div class="tabs" onclick="location.href='./cat-tech.html'">
+                <span>Technology</span>
+            </div>
+
+            <div class="tabs" onclick="location.href='./cat-entertainment.html'">
+                <span>Entertainment</span>
+            </div>
+
+            <div class="tabs" onclick="location.href='./cat-history.html'">
+                <span>History</span>
+            </div>
+
+            <hr>
+            <div class="tabs">
+                <span>Content Policy</span>
+            </div>
+            <div class="tabs">
+                <span>Privacy Policy</span>
+            </div>
+            <div class="tabs">
+                <span>User Agreement</span>
+            </div>
+        </div>
+
+
+        <div class="article">
+            <div class="back" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="user">
+
+                <!-- userimage -->
+                <img src="./images/user/user67.png" alt="">
+
+                <!-- user -->
+                <a href="">u/Muraaby</a>
+
+                <!-- date -->
+                <span class="date">14h ago</span>
+            </div>
+            <div class="article-content">
+                <div class="content-title">Trying to make sure this Porsche/Audi amp is actually water damaged.</div>
+
+                <div class="content-text">
+                    It’s apparently a pretty common issue that Porsche/Audi suvs leak water into the trunk via the
+                    sunroof drains. Sound stopped working, dealership told me they found water damage, however the amp
+                    was still sealed. Before ordering another I wanted to get some confirmation on water damage. They
+                    said they tested the power to the amp and that was good. Not sure about the fiber optic cable.
+                </div>
+            </div>
+
+            <div class="media">
+                <img src="./images/content/trying-to-make-sure-this-porsche-audi-amp-is-actually-water-v0-b4cmfa5ok46e1.webp"
+                    alt="">
+                <img src="./images/content/trying-to-make-sure-this-porsche-audi-amp-is-actually-water-v0-zo7gk95ok46e1.webp"
+                    alt="">
+            </div>
+            <div class="card-buttons">
+                <div class="button">
+                    <div class="vote"><i class="fa-regular fa-thumbs-up"></i></div>
+                    <span id="vote">72</span>
+                    <div class="vote"><i class="fa-regular fa-thumbs-down"></i></div>
+                </div>
+
+                <!-- comment button -->
+                <div class="button">
+                    <i class="fa-regular fa-comment"></i>
+                    <span>63</span>
+                </div>
+
+                <div class="button">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+
+                <div class="button">
+                    <i class="fa-solid fa-share"></i>
+                    <span>Share</span>
+                </div>
+            </div>
+
+            <div class="comment-bar">
+                <input type="text" placeholder="Add comment">
+                <div class="post-button"><span>post</span></div>
+            </div>
+
+            <div class="comment">
+                <div class="user">
+
+                    <!-- userimage -->
+                    <img src="./images/user/user68.webp" alt="">
+
+                    <!-- user -->
+                    <a href="">u/evil_trash_panda</a>
+
+                    <!-- date -->
+                    <span class="date">14h ago</span>
+                </div>
+
+                <div class="comment-text">
+                    Try giving it a thorough bath for an hr. That way you can be certain it's water damaged
+                    <div class="card-buttons">
+                        <div class="button">
+                            <div class="vote"><i class="fa-regular fa-thumbs-up"></i></div>
+                            <span id="vote">198</span>
+                            <div class="vote"><i class="fa-regular fa-thumbs-down"></i></div>
+                        </div>
+
+                        <!-- comment button -->
+                        <div class="button">
+                            <i class="fa-regular fa-comment"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="button">
+                            <i class="fa-solid fa-award"></i>
+                            <span>Award</span>
+                        </div>
+
+                        <div class="button">
+                            <i class="fa-solid fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reply">
+                    <div class="user">
+
+                        <!-- userimage -->
+                        <img src="./images/user/avatar_default_1.png" alt="">
+
+                        <!-- user -->
+                        <a href="">u/Novel_Ad_8062</a>
+
+                        <!-- date -->
+                        <span class="date">2d ago</span>
+                    </div>
+
+                    <div class="comment-text">
+                        I loled.
+                        <br><br>
+                        It doesn’t take much to short out a chip. Unless you’re experience (you wouldn’t be here if you
+                        were) there’s not much of a chance of fixing this yourself.
+                        <div class="card-buttons">
+                            <div class="button">
+                                <div class="vote"><i class="fa-regular fa-thumbs-up"></i></div>
+                                <span id="vote">7</span>
+                                <div class="vote"><i class="fa-regular fa-thumbs-down"></i></div>
+                            </div>
+
+                            <!-- comment button -->
+                            <div class="button">
+                                <i class="fa-regular fa-comment"></i>
+                                <span>Comment</span>
+                            </div>
+
+                            <div class="button">
+                                <i class="fa-solid fa-award"></i>
+                                <span>Award</span>
+                            </div>
+
+                            <div class="button">
+                                <i class="fa-solid fa-share"></i>
+                                <span>Share</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="user">
+
+                    <!-- userimage -->
+                    <img src="./images/user/user69.webp" alt="">
+
+                    <!-- user -->
+                    <a href="">u/MilkFickle</a>
+
+                    <!-- date -->
+                    <span class="date">13h ago</span>
+                </div>
+
+                <div class="comment-text">
+                    That's conformal coating, check for dead shorts on the speaker terminals and also the amplifier.
+                    Those shorted pins have to be from factory because nothing there can get hot enough to melt unleaded
+                    solder like that without there being a massive amount of damage to and around that chip.
+                    <div class="card-buttons">
+                        <div class="button">
+                            <div class="vote"><i class="fa-regular fa-thumbs-up"></i></div>
+                            <span id="vote">39</span>
+                            <div class="vote"><i class="fa-regular fa-thumbs-down"></i></div>
+                        </div>
+
+                        <!-- comment button -->
+                        <div class="button">
+                            <i class="fa-regular fa-comment"></i>
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="button">
+                            <i class="fa-solid fa-award"></i>
+                            <span>Award</span>
+                        </div>
+
+                        <div class="button">
+                            <i class="fa-solid fa-share"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reply">
+                    <div class="user">
+
+                        <!-- userimage -->
+                        <img src="./images/user/user64.webp" alt="">
+
+                        <!-- user -->
+                        <a href="">u/ihatedramas</a>
+
+                        <!-- date -->
+                        <span class="date">2d ago</span>
+                    </div>
+                    <div class="comment-text">
+                        Yes this amp looks great. I don’t see any issues with water in here.
+                        <div class="card-buttons">
+                            <div class="button">
+                                <div class="vote"><i class="fa-regular fa-thumbs-up"></i></div>
+                                <span id="vote">3</span>
+                                <div class="vote"><i class="fa-regular fa-thumbs-down"></i></div>
+                            </div>
+
+                            <!-- comment button -->
+                            <div class="button">
+                                <i class="fa-regular fa-comment"></i>
+                                <span>Comment</span>
+                            </div>
+
+                            <div class="button">
+                                <i class="fa-solid fa-award"></i>
+                                <span>Award</span>
+                            </div>
+
+                            <div class="button">
+                                <i class="fa-solid fa-share"></i>
+                                <span>Share</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="comment">
+                <div class="user">
+
+                    <!-- userimage -->
+                    <img src="./images/user/avatar_default_4.png" alt="">
+
+                    <!-- user -->
+                    <a href="">u/elunltd</a>
+
+                    <!-- date -->
+                    <span class="date">14h ago</span>
+                </div>
+
+                <div class="comment-text">
+                    OK I have seen this exact problem arrive at my shop for repair. The corrosion is inside the optical
+                    block with the IR receiver and transmitter in it. This must be removed entirely from the circuit
+                    board and the green stuff inside it will be evident. Took me forever to find it and it was one of
+                    those eureka moments! Good luck, that module removal is not easy either.
+                    <div class="card-buttons">
+                    <div class="button">
+                        <div class="vote"><i class="fa-regular fa-thumbs-up"></i></div>
+                        <span id="vote">30</span>
+                        <div class="vote"><i class="fa-regular fa-thumbs-down"></i></div>
+                    </div>
+
+                    <!-- comment button -->
+                    <div class="button">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+
+                    <div class="button">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Award</span>
+                    </div>
+
+                    <div class="button">
+                        <i class="fa-solid fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
