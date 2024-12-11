@@ -349,10 +349,16 @@ h1.category-title::before {
 }
 
 .media {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-.media video,
 .media img {
+  border-radius: 10px;
+  height: 400px;
+}
+.media video{
   border-radius: 10px;
   margin-top: 20px;
   width: 100%;
@@ -462,8 +468,8 @@ h1.category-title::before {
 
 .reply {
   margin-top: 20px;
-  margin-left: 100px;
-  padding-left: 20px;
+  margin-left: 50px;
+  padding-left: 10px;
 }
 
 .article h1 {
